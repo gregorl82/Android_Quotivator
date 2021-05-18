@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/quote_text"
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:text="Interesting quote"
@@ -16,6 +17,7 @@
         android:textAlignment="center"/>
 
     <Button
+        android:id="@+id/quotivate_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/quotivate_me"
